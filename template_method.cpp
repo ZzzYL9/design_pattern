@@ -106,6 +106,7 @@ int main()
     Beverage *T = new Tea();
     T->prepareRecipe();
     cout << endl << endl;
+    delete C;
     delete T;
     return 0;
 }
