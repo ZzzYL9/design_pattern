@@ -2,14 +2,16 @@
 
 定义一系列的算法，把它们一个个封装起来，并且使它们可以相互替换。该模式使得算法可独立于使用它的客户而变化
 
-![Image text](https://img-blog.csdn.net/20181015220302538?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzIxNTczODk5/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![Image](https://img-blog.csdn.net/20181015220302538?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzIxNTczODk5/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
 
 优点：
+
     ① 策略模式的Strategy类层次为Context定义了一系列的可供重用的算法或行为。继承有助于析取出这些算法中的公共功能。
     
     ② 简化了单元测试，因此每个算法都有自己的类，可以通过自己的借口单独测试
 
 适用场景：
+
     ① 如果在一个系统里面有许多类，它们之间的区别仅在于它们的行为， 那么使用策略模式可以动态地让一个对象在许多行为中选择一种行为。
     
     ② 一个系统需要动态地在几种算法中选择一种。
