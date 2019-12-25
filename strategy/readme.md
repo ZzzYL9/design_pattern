@@ -2,7 +2,7 @@
 
 定义一系列的算法，把它们一个个封装起来，并且使它们可以相互替换。该模式使得算法可独立于使用它的客户而变化
 
-![Image](https://github.com/ZzzYL9/design_pattern/tree/master/class_images/strategy.png)
+![Image](https://github.com/ZzzYL9/design_pattern/blob/master/class_images/strategy.png)
 
 优点：
 
