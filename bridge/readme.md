@@ -2,6 +2,7 @@
 
 ### 将抽象部分与它的实现部分分离，使它们都可以独立地变化
 
+
 ![Image](https://github.com/ZzzYL9/design_pattern/tree/master/class_images/bridge.png)
 
 
