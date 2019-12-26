@@ -1,4 +1,0 @@
-#ifndef DECORATORBAG_H
-#define DECORATORBAG_H
-
-#endif // DECORATORBAG_H
