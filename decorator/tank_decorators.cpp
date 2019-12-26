@@ -77,6 +77,11 @@ int main()
     pBigSlient->decorator(pBig);
     pBigSlient->shot();
     cout << endl << endl;
+    
+    delete ptank;
+    delete pDecorator;
+    delete pBig;
+    delete pBigSlient;
 
     Tank *Ttank = new T100();
     Decorator *Tdecorator = new Decorator();
@@ -93,8 +98,13 @@ int main()
     //在BigerShot装饰器的基础上再加一个装饰
     Sdecorator->decorator(Bdecorator);
     Sdecorator->shot();
+    
+    delete Ttank;
+    delete Tdecorator;
+    delete Bdecorator;
+    delete Sdecorator;
 
-        return 0;
+    return 0;
 }
 
 
