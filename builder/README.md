@@ -3,6 +3,8 @@
 
 ### 将一个复杂对象的构建与它的表示分离，使同样的构建过程可以创建不同的表示
 
+![Image](https://github.com/ZzzYL9/design_pattern/blob/master/class_images/builder.gif)
+
 优点：
     
     ① 建造者独立，易扩展
